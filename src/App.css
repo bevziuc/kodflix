@@ -1,21 +1,22 @@
 body {
   margin: 0;
   padding: 0;
+}
+html {
   box-sizing: border-box;
 }
 
 .Header {
   text-align: center;
 }
-.TvShows {
+.TvShows__cover {
   display: flex;
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
-  height: 100%;
 }
 .TvShows__img{
-  width: 30%;
+  width: 26%;
 }
 .TvShows__img img {
   width: 100%;

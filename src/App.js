@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="Header">
-        <div className="TvShows">
+        <div className="TvShows__cover">
           <div className='TvShows__img'>
             <img src={bandOfBrothers} alt='Tv Shows Logo'/>
           </div>
@@ -21,6 +21,8 @@ class App extends Component {
           <div className='TvShows__img'>
             <img src={cosmos} alt='Tv Shows Logo'/>
           </div>
+        </div>
+        <div className="TvShows__cover">
           <div className='TvShows__img'>
             <img src={gameOfThrones} alt='Tv Shows Logo'/>
           </div>
