@@ -9,6 +9,17 @@ html {
 .Header {
   text-align: center;
 }
+.TvShows__title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.TvShows__title-descr {
+  width: 26%;
+  margin: 30px;
+  text-align: center;
+}
 .TvShows__cover {
   display: flex;
   justify-content: center;
