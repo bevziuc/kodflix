@@ -2,23 +2,29 @@ body {
   margin: 0;
   padding: 0;
 }
+
 html {
   box-sizing: border-box;
 }
+
 .Header {
   text-align: center;
 }
+
 .TvShows__cover {
   display: flex;
   justify-content: space-around;
 }
+
 .TvShows__img {
   flex: 1 100%;
 }
+
 .TvShows__img img {
   width: 100%;
   height: 100%;
 }
+
 @media (max-width: 600px) {
   .TvShows__cover {
     display: block;
