@@ -12,14 +12,14 @@ export default function TvShowsGallery(props) {
    return (
       <div className="Header">
         <div className="TvShows__cover">
-          <Cover name='Band Of Brothers' logo={bandOfBrothers} />
-          <Cover name='Black Mirror' logo={blackMirror} />
-          <Cover name='Cosmos' logo={cosmos} />
+          <Cover id='band' name='Band Of Brothers' logo={bandOfBrothers} />
+          <Cover id='mirror' name='Black Mirror' logo={blackMirror} />
+          <Cover id='bacosmosnd' name='Cosmos' logo={cosmos} />
         </div>
         <div className="TvShows__cover">
-          <Cover name='Game Of Thrones' logo={gameOfThrones} />
-          <Cover name='Life' logo={life} />
-          <Cover name='The Sopranos' logo={sopranos} />
+          <Cover id='thrones' name='Game Of Thrones' logo={gameOfThrones} />
+          <Cover id='life' name='Life' logo={life} />
+          <Cover id='sopranos' name='The Sopranos' logo={sopranos} />
         </div>
       </div>
    );
