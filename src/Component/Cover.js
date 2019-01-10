@@ -3,12 +3,10 @@ import {Link} from 'react-router-dom';
 
 export default function (props) {
    return (
-      <div className='TvShows__img'>
+      <div className='tvShows__img'>
          <Link to={props.id}>
             <img src={props.logo} alt={`${props.name} Tv Shows Logo`} />
-            <div className='TvShows__overlay'>
-               <h4>{props.name}</h4>
-            </div>
+            <h4 className='tvShowsTitle'>{props.name}</h4>
          </Link>
       </div>
    );

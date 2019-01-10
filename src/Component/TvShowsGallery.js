@@ -11,12 +11,10 @@ import '../css/TvShowsGallery.css';
 export default function TvShowsGallery(props) {
    return (
       <div className="Header">
-        <div className="TvShows__cover">
+        <div className="tvShows__cover">
           <Cover id='band' name='Band Of Brothers' logo={bandOfBrothers} />
           <Cover id='mirror' name='Black Mirror' logo={blackMirror} />
           <Cover id='cosmos' name='Cosmos' logo={cosmos} />
-        </div>
-        <div className="TvShows__cover">
           <Cover id='thrones' name='Game Of Thrones' logo={gameOfThrones} />
           <Cover id='life' name='Life' logo={life} />
           <Cover id='sopranos' name='The Sopranos' logo={sopranos} />

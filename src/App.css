@@ -8,6 +8,5 @@ html {
 }
 
 .App {
-  max-width: 1140px;
-  margin: auto;
+  background-color: #000;
 }
