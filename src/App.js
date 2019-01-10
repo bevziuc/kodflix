@@ -1,28 +1,18 @@
 import React, { Component } from 'react';
-import bandOfBrothers from './img/tvShows/band-of-brothers.jpg';
-import blackMirror from './img/tvShows/black-mirror.jpg';
-import cosmos from './img/tvShows/cosmos.jpg';
-import gameOfThrones from './img/tvShows/game-of-thrones.jpg';
-import life from './img/tvShows/life.jpg';
-import sopranos from './img/tvShows/the-sopranos.jpg';
-import Cover from './Component/Cover.js';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import TvShowsGallery from './Component/TvShowsGallery.js';
+import Details from './Component/Details.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="Header">
-        <div className="TvShows__cover">
-          <Cover name='Band Of Brothers' logo={bandOfBrothers} />
-          <Cover name='Black Mirror' logo={blackMirror} />
-          <Cover name='Cosmos' logo={cosmos} />
+      <Router>
+        <div className='App'>
+          <Route path="/" exact component={TvShowsGallery}></Route>
+          <Route path="/details" exact component={Details}></Route>
         </div>
-        <div className="TvShows__cover">
-          <Cover name='Game Of Thrones' logo={gameOfThrones} />
-          <Cover name='Life' logo={life} />
-          <Cover name='The Sopranos' logo={sopranos} />
-        </div>
-      </div>
+      </Router>
     );
   }
 }
