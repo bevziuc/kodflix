@@ -1,7 +1,7 @@
 import React from 'react';
-import getTehnologies from './get-tehnologies.js';
-import Cover from '../Component/Cover.js';
-import '../css/TvShowsGallery.css';
+import getTehnologies from './get-tehnologies';
+import Cover from './Cover';
+import '../css/tv-showsGallery.css';
 
 export default function TvShowsGallery(props) {
    return (

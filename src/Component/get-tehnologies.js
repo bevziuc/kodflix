@@ -15,3 +15,4 @@ export default function getTehnologies() {
       { id: 'sopranos', name: 'The Sopranos', logo: sopranos }
    ];
  }
+ 
