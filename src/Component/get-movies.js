@@ -5,7 +5,7 @@ import gameOfThrones from '../img/tvShows/game-of-thrones.jpg';
 import life from '../img/tvShows/life.jpg';
 import sopranos from '../img/tvShows/the-sopranos.jpg';
 
-export default function getTehnologies() {
+export default function getMovies() {
    return [
       { id: 'band', name: 'Band Of Brothers', logo: bandOfBrothers },
       { id: 'mirror', name: 'Black Mirror', logo: blackMirror },
