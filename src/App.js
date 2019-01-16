@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import TvShowsGallery from './Component/tv-shows-gallery';
 import Details from './Component/Details';
+import NotFound from './Component/not-found';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +10,12 @@ class App extends Component {
     return (
       <Router>
         <div className='App'>
-          <Route path="/" exact component={TvShowsGallery}></Route>
-          <Route path="/:moviesId" exact component={Details}></Route>
+          <Switch>
+            <Route path="/" exact component={ TvShowsGallery } />
+            <Route path="/not-found" exact component={NotFound} />
+            <Route path="/:moviesId" exact component={  Details } />
+          </Switch>
+          
         </div>
       </Router>
     );

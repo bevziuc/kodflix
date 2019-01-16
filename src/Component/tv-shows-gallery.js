@@ -10,10 +10,10 @@ export default function TvShowsGallery(props) {
           {
             getMovies().map(cover => (
               <Cover
-                key={cover.id}
-                id={cover.id}
-                name={cover.name}
-                logo={cover.logo} />
+                key={ cover.id }
+                id={ cover.id }
+                name={ cover.name }
+                logo={ cover.logo } />
             ))
           }
         </div>
