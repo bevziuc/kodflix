@@ -19,6 +19,7 @@ html {
 .TvShows__img {
   flex: 1 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .TvShows__img img {
@@ -32,6 +33,28 @@ html {
   display: flex;
   align-self: center;
   justify-content: center;
+}
+
+.TvShows__title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.TvShows__title-descr {
+  flex: 1;
+  flex-basis: 100%;
+  margin: 30px;
+  text-align: center;
+}
+
+.TvShows__img:hover .TvShows__overlay {
+  display: block;
+  cursor: pointer;
+}
+
+.TvShows__overlay {
+  color: #ffffff;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -46,6 +69,7 @@ html {
   display: block;
   cursor: pointer;
   height: 100px;;
+  display: none;
 }
 
 @media (max-width: 600px) {
