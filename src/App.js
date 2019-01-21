@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import TvShowsGallery from './Component/tv-shows-gallery';
-import Details from './Component/Details';
-import NotFound from './Component/not-found';
+import TvShowsGallery from './Tv-shows-gallery/tv-shows-gallery';
+import Details from './Details/Details';
+import NotFound from './NotFound/not-found';
 import './App.css';
 
 class App extends Component {
