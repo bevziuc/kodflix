@@ -18,7 +18,6 @@ export default class Details extends Component {
     });
   };
 
-
   render () {
     if(this.state.movies === undefined) {
       return <Redirect to="/not-found" />
