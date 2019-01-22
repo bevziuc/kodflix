@@ -9,6 +9,7 @@ export default class Details extends Component {
     this.state = {
       movies: {}
     }
+    };
   }
 
   componentDidMount() {
