@@ -11,9 +11,9 @@ class App extends Component {
       <Router>
         <div className='App'>
           <Switch>
-            <Route path="/" exact component={ TvShowsGallery } />
-            <Route path="/not-found" exact component={NotFound} />
-            <Route path="/:moviesId" exact component={  Details } />
+            <Route path='/' exact component={ TvShowsGallery } />
+            <Route path='/not-found' exact component={NotFound} />
+            <Route path='/:moviesId' exact component={  Details } />
           </Switch>
           
         </div>
