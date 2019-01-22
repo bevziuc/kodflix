@@ -7,6 +7,10 @@ html {
   box-sizing: border-box;
 }
 
+.App {
+  background-color: #000;
+}
+
 .Header {
   text-align: center;
 }
