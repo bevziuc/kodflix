@@ -13,7 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-backend": "nodemon src/back-end/app.js"
+    "start-backend": "nodemon src/back-end/app.js",
+    "start-all": "npm-run-all -p start start-backend"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5"
   }
 }
