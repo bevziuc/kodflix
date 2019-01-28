@@ -12,7 +12,7 @@ export default function TvShowsGallery(props) {
               <Cover
                 key={ cover.id }
                 id={ cover.id }
-                name={ cover.name }
+                title={ cover.title }
                 logo={ cover.logo } />
             ))
           }
