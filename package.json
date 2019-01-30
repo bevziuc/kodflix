@@ -9,12 +9,13 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    // "start": "npm-run-all -s build start-backend",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-backend": "nodemon src/back-end/app.js",
-    "start-all": "npm-run-all -p start start-backend"
+    "start-dev": "npm-run-all -p start start-backend"
   },
   "eslintConfig": {
     "extends": "react-app"
